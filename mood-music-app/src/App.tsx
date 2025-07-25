@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import routes from './routes'; // Adjust the path to your routes file
+import routes from './constants/routes.tsx'; 
 
 const router = createBrowserRouter(routes);
 
